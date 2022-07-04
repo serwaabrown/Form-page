@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.FormField {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+.FormField form fieldset{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 10px;
+    margin: 20px;
+    background-color: rgba(200, 203, 204, 0.13);
+    border: 1px solid rgba(200, 203, 204, 0.219);
+    border-radius: 10px;
+}
+.FormField form label {
+    padding: 5px;
+    font-size: 20px;
+}
+.FormField form label .input-fields {
+    padding: 5px;
+    width: 300px;
+    box-shadow: 1px 1px 5px lightblue;
+    outline: none;
+    margin-top: 10px;
+}
+.FormField form label input.input-fields {
+    height: 40px;
+}
+.FormField form legend {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.submit-field {
+    width: 80px;
+    height: 25px;
+}
+
+textarea.input-fields {
+    font-size: 15px;
+    text-align: left;
+    padding: 0;
+}
+
+.FormField form fieldset legend {
+    border: 1px solid rgba(200, 203, 204, 0.219);
+    background-color: rgba(200, 203, 204, 0.219);
+    padding: 10px;
+    border-radius: 10px;
+}
